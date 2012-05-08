@@ -40,3 +40,30 @@ Here \cite{2476800320070101} is a citation. This makes the reference
 in bibliography.bib appear in the bibliography section. 
 
 Here is a reference to another section: page \pageref{sec:another}.
+
+Here is a figure that contains an image.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figures/grass}
+\caption{grass}
+\label{fig:grass}
+\end{figure}
+
+
+And here is some code:
+\begin{figure}[H]
+\begin{singlespace}
+\begin{lstlisting}[language=c]
+    #include <stdio.h> 
+
+    int main (int argc, char **argv) {
+	    printf("Hello, World!\n");
+        return 0;
+    }
+\end{lstlisting}
+\end{singlespace}
+\caption{Hello world}
+\label{fig:hellocode}
+\end{figure}
+
